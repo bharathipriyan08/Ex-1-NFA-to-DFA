@@ -1,11 +1,17 @@
 
 # Ex-1-NFA-to-DFA
 # Exercise 1 - Conversion of Non-Deterministic Finite Automaton (NFA) To Deterministic Finite Automaton (DFA)
+```
+REG NO:212221040028
+NAME: Bharthi priyan T
+```
 
 # Date: 
+
 ## Aim
 To write a C program for Conversion of Non-Deterministic Finite Automaton (NFA) To 
 Deterministic Finite Automaton (DFA).
+
 # ALGORITHM
 Step 1 : Take ∈ closure for the beginning state of NFA as beginning state of DFA. 
 
@@ -17,10 +23,8 @@ Step 3 : If any new state is found take it as current state and repeat step 2.
 Step 4 : Do repeat Step 2 and Step 3 until no new state present in DFA transition table. 
 
 Step 5 : Mark the states of DFA which contains final state of NFA as final states of DFA.
+
 # PROGRAM
-REG NO:212222240074
-NAME:   PRAKASH R
-```
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
